@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>API Demo</title>
+</head>
+<body class=" bg-blazingYellow">
+
+    <main class="h-screen flex flex-col">
+    <form class="flex flex-col items-center justify-center mt-10">
+        <h1 class="text-center text-4xl text-fancyBlack">Rest Api App</h1>
+        <select name="option" id="option" class=" px-3 py-3 mt-10 bg-black text-white " >
+            <option id="viewOrders" value="viewOrders" >View Orders</option>
+            <option id="deleteUser" value="deleteUser">Delete User</option>
+            <option id="updateUser" value="updateUser">Update User</option>
+        </select>
+        <input class="bg-fancyBlack text-white px-40 py-3 mt-10 rounded-md" type="button" id="myCbtn" value="Select">
+    </form>
+
+    <section id="form" class=" flex flex-col justify-center items-center">
+
+    </section>
+
+
+    </main>
+    <script src="/src/main.js"></script>
+</body>
+</html>
